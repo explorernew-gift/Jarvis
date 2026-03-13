@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.jarvis.app"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        debug { minifyEnabled false }
+        release { minifyEnabled false; signingConfig signingConfigs.debug }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    // No extra dependencies — uses only Android SDK
+}
