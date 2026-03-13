@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
     boolean listening = false;
 
     // ── AI ────────────────────────────────────
-    String GROQ_KEY = "PASTE_YOUR_GROQ_KEY_HERE";
+    String GROQ_KEY = "Rkbrbrjididydhrekisb736363@";
     List<JSONObject> chatHistory = new ArrayList<>();
     static final int MIC_PERM = 1;
 
