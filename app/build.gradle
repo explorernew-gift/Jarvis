@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace "com.jarvis.app"
     compileSdk 34
     defaultConfig {
         applicationId "com.jarvis.app"
@@ -21,6 +22,4 @@ android {
     }
 }
 
-dependencies {
-    // No extra dependencies — uses only Android SDK
-}
+dependencies {}
